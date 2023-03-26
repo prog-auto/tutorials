@@ -94,6 +94,16 @@
         </dependency>
     </dependencies>
 
+    <repositories>
+        <repository>
+            <id>openimaj.org</id>
+            <name>openimaj.org</name>
+            <url>https://maven.openimaj.org/</url>
+            <releases><enabled>true</enabled></releases>
+            <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+    </repositories>
+
     <properties>
         <core-image.version>1.3.5</core-image.version>
         <ij.version>1.51h</ij.version>
